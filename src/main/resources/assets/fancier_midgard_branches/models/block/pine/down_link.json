@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "bark": "midgard:block/pine_log",
+    "particle": "#bark"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        -6,
+        6
+      ],
+      "to": [
+        10,
+        0,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bark",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#bark",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#bark",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#bark",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

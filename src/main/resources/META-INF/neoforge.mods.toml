@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/AylanJ123/Fancier-Midgard-Branches/issues"
+
+[[mods]]
+modId="fancier_midgard_branches"
+version="${mod_version}"
+displayName="Fancier Midgard Branches"
+authors="aylanj123"
+displayURL="https://github.com/AylanJ123/Fancier-Midgard-Branches"
+description="Replaces Midgard's ugly fence branches with thinner branches that connect to wood, leaves and ground."
+
+[[dependencies.fancier_midgard_branches]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.fancier_midgard_branches]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.265,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.fancier_midgard_branches]]
+modId="midgard"
+type="required"
+versionRange="[1.1.0,1.2)"
+ordering="AFTER"
+side="CLIENT"
